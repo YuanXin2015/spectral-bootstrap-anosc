@@ -1,0 +1,5 @@
+LOCAL_MOUNT='/usr/local/share/sdpb/'
+
+echo docker run --platform linux/amd64 -v $(pwd)/:$LOCAL_MOUNT -w $LOCAL_MOUNT wlandry/sdpb:2.5.1 $@
+echo ' '
+docker run --platform linux/amd64 -v $(pwd)/:$LOCAL_MOUNT -w $LOCAL_MOUNT wlandry/sdpb:2.5.1 $@

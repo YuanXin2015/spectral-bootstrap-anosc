@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export PATH=/Users/yuan/projects/sdpb/bin:$PATH
+export LD_LIBRARY_PATH=/Users/yuan/projects/sdpb/lib:$LD_LIBRARY_PATH
+
+/Users/yuan/projects/sdpb/sdpb/build/pvm2sdp $@
+# /Users/yuan/projects/sdpb/sdpb-rbb/build/sdpb --procsPerNode 4 $@

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+/mnt/sda1/bootstrap_tools/sdpb-outer/build/outer_limits $@

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+mpirun -n 4 /mnt/sda1/bootstrap_tools/sdpb-spectrum/build/sdpb --procsPerNode 4 $@

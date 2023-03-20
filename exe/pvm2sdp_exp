@@ -1,0 +1,3 @@
+#!/bin/bash
+
+/mnt/sda1/bootstrap_tools/bin/pvm2sdp_exp $@

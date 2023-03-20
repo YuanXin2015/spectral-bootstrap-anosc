@@ -1,0 +1,4 @@
+#!/bin/bash -l
+
+# mpirun --allow-run-as-root --oversubscribe -n 8 sdpb --procsPerNode 8 $@
+mpirun --allow-run-as-root -np 4 sdpb --procsPerNode 4 $@
